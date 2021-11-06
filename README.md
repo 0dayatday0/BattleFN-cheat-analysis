@@ -29,7 +29,7 @@ No need to take care of cleaning up the mapper as it already self-unload and del
 ## Notes
 No additional note to add beside how someone can be that clueless in what hes doing
 
-![access-noseh](https://cdn.upload.systems/uploads/EZH5SIlS.png)
+
 
 # easy-rw - PoC for reading/writing process memory using BattleFN's cheat kernel modules
 
@@ -74,3 +74,5 @@ The cheat does it by calling gdi32!D3DKMTVailDisconnect (the API being hooked) w
 If you don't do that, the usermode DLL DLLVMhk wont issue IOCTLs to the driver.
 
 The pseudo-developer Mr Xiao probably did that in order to try to stop the attempt to let others use his bad coded kernel modules.
+
+![access-noseh](https://cdn.upload.systems/uploads/EZH5SIlS.png)
