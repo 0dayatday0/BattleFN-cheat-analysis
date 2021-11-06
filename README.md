@@ -1,10 +1,11 @@
 # A Formal Analysis of The Average (Detected) Fortnite Cheat
 
-https://github.com/0dayatday0/BattleFN-cheat-analysis/blob/main/cheat-analysis.pdf
+[Click here for read the analysis](https://github.com/0dayatday0/BattleFN-cheat-analysis/blob/main/cheat-analysis.pdf) 
 
+Average Fortnite cheat paster trying to save his ass in front of his scammed clients:
 ![MrXiaoBullshit](https://cdn.discordapp.com/attachments/867531432179007488/906216104689541150/unknown.png)
 
-# Extra: 
+# Use the stupidness of a paster in your favour: 
 
 # easy-kernelmapper - Manual map your driver with a batch using a valid signed driver
 
