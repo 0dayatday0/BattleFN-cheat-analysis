@@ -34,3 +34,5 @@ The user-mode module the external cheat process uses hook also an API that the h
 In order to perform memory operations, you have to set a global variable present in the DLL that describe the process handle the process should use the driver to read or write memory.
 The cheat does it by calling gdi32!D3DKMTVailDisconnect (the API being hooked) with the target process handle as parameter.
 If you don't do that, the usermode DLL DLLVMhk wont issue IOCTLs to the driver.
+
+The pseudo-developer Mr Xiao probably did that in order to try to stop the attempt to let others use his bad coded kernel modules.
