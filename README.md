@@ -29,6 +29,8 @@ No need to take care of cleaning up the mapper as it already self-unload and del
 ## Notes
 No additional note to add beside how someone can be that clueless in what hes doing
 
+![access-noseh](https://cdn.upload.systems/uploads/EZH5SIlS.png)
+
 # easy-rw - PoC for reading/writing process memory using BattleFN's cheat kernel modules
 
 This is a PoC that can let you have r/w access to any process that is backed by any anticheat which strip handles rights, using standard Windows APIs.
