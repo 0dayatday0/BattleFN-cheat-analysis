@@ -20,6 +20,12 @@ No additional note to add beside how someone can be that clueless in what hes do
 
 
 
+
+
+
+
+
+
 ## easy-rw - PoC for reading/writing process memory using BattleFN's cheat kernel modules
 
 This is a PoC that can let you have r/w access to any process that is backed by any anticheat which strip handles rights, using standard Windows APIs.
