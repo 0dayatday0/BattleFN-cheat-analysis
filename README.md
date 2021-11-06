@@ -8,7 +8,8 @@ https://github.com/0dayatday0/BattleFN-cheat-analysis/blob/main/cheat-analysis.p
 
 # easy-kernelmapper - Manual map your driver with a batch using a valid signed driver
 
-The cheat pseudo-developer was so dumb to sign a driver with a valid certificate that manual map any driver present in C:\driver.sys
+The cheat pseudo-developer was so dumb to sign a driver with a valid certificate that manual map any driver present in C:\driver.sys.
+
 Simply put the batch file "mmap_driver.bat" present in a folder with your driver to manual map named "mapped_driver.sys" and run the batch as administrator.
 No need to take care of cleaning up the mapper as it already self-unload and delete the service registry key.
 
