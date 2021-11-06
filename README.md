@@ -5,16 +5,16 @@
 Average Fortnite cheat paster trying to save his ass in front of his scammed clients:
 ![MrXiaoBullshit](https://cdn.discordapp.com/attachments/867531432179007488/906216104689541150/unknown.png)
 
-# Use the stupidness of a paster in your favour: 
+# Use the stupidness of a paster in your favour!
 
-# easy-kernelmapper - Manual map your driver with a batch using a valid signed driver
+## easy-kernelmapper - Manual map your driver with a batch using a valid signed driver
 
 The cheat pseudo-developer was so dumb to sign a driver with a valid certificate that manual map any driver present in C:\driver.sys.
 
 Simply put the batch file "mmap_driver.bat" present in a folder with your driver to manual map named "mapped_driver.sys" and run the batch as administrator.
 No need to take care of cleaning up the mapper as it already self-unload and delete the service registry key.
 
-# easy-rw - PoC for reading/writing process memory using BattleFN's cheat kernel modules
+## easy-rw - PoC for reading/writing process memory using BattleFN's cheat kernel modules
 
 This is a PoC that can let you have r/w access to any process that is backed by any anticheat which strip handles rights, using standard Windows APIs.
 
@@ -31,7 +31,7 @@ Open a command prompt as administrator and run the command:
 
 If it success, it will write to the console the first 2 bytes of the image of the process you specified (4D 5A)
 
-# Explaination
+# Explanation
 
 There's just one thing to explain which isn't wrote in the PDF:
 
