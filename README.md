@@ -17,7 +17,7 @@ I made this for two purposes:
 # Instructions
 
 Open a command prompt as administrator and run the command:
-** "easy-rw.exe <process id> **
+**"easy-rw.exe <process id>**
 
 If it success, it will write to the console the first 2 bytes of the image of the process you specified (4D 5A)
 
