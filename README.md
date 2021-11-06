@@ -7,7 +7,7 @@ Average Fortnite cheat paster trying to save his ass in front of his scammed cli
 
 # Use the stupidness of a paster in your favour!
 
-## easy-kernelmapper - Manual map your driver with a batch using a valid signed driver
+# easy-kernelmapper - Manual map your driver with a batch using a valid signed driver
 
 The cheat pseudo-developer was so dumb to sign a driver with a valid certificate that manual map any driver present in C:\driver.sys.
 
@@ -18,15 +18,7 @@ No need to take care of cleaning up the mapper as it already self-unload and del
 ## Notes
 No additional note to add beside how someone can be that clueless in what hes doing
 
-
-
-
-
-
-
-
-
-## easy-rw - PoC for reading/writing process memory using BattleFN's cheat kernel modules
+# easy-rw - PoC for reading/writing process memory using BattleFN's cheat kernel modules
 
 This is a PoC that can let you have r/w access to any process that is backed by any anticheat which strip handles rights, using standard Windows APIs.
 
