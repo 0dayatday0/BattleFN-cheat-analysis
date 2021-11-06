@@ -30,7 +30,7 @@ There's just one thing to explain which isn't wrote in the PDF:
 		(initialize_process_pid_prototype)GetProcAddress(LoadLibraryW(L"gdi32.dll"), "D3DKMTVailDisconnect");
     initialize_process_pid_function(process);
 
-The user-mode module the external cheat process uses hooks also some APIs that the host process must call with custom parameters in order to make the User Mode - Kernel Mode communication working.
+The user-mode module the external cheat process uses hook also an API that the host process must call in order to make the User Mode - Kernel Mode communication working.
 In order to perform memory operations, you have to set a global variable present in the DLL that describe the process handle the process should use the driver to read or write memory.
-The cheat does it by calling gdi32!D3DKMTVailDisconnect with the target process handle as parameter.
+The cheat does it by calling gdi32!D3DKMTVailDisconnect (the API being hooked) with the target process handle as parameter.
 If you don't do that, the usermode DLL DLLVMhk wont issue IOCTLs to the driver.
