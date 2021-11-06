@@ -11,8 +11,14 @@ Average Fortnite cheat paster trying to save his ass in front of his scammed cli
 
 The cheat pseudo-developer was so dumb to sign a driver with a valid certificate that manual map any driver present in C:\driver.sys.
 
+## Instructions
 Simply put the batch file "mmap_driver.bat" present in a folder with your driver to manual map named "mapped_driver.sys" and run the batch as administrator.
 No need to take care of cleaning up the mapper as it already self-unload and delete the service registry key.
+
+## Notes
+No additional note to add beside how someone can be that clueless in what hes doing
+
+
 
 ## easy-rw - PoC for reading/writing process memory using BattleFN's cheat kernel modules
 
@@ -24,14 +30,14 @@ I made this for two purposes:
 
 2: Incase you want a copy and paste ready window to access any protected process memory, you can use that. You'll probably end in making a less detected cheat then its one, using the same stuff he pasted. 
 
-# Instructions
+## Instructions
 
 Open a command prompt as administrator and run the command:
 **"easy-rw.exe \<process id\>"**
 
 If it success, it will write to the console the first 2 bytes of the image of the process you specified (4D 5A)
 
-# Explanation
+## Notes
 
 There's just one thing to explain which isn't wrote in the PDF:
 
