@@ -11,6 +11,7 @@ I've also made a PoC that can let you have r/w access to any process that is bac
 I made this for two purposes:
 
 1: To show off the analysis being a really accurate resume of the whole BattleFN working mechanism (in contrast to the developers lies where he says that it misses the most important point just to try to save his product)
+
 2: Incase you want a copy and paste ready window to access any protected process memory, you can use that. You'll probably end in making a less detected cheat then its one, using the same stuff he pasted. 
 
 # Instructions
