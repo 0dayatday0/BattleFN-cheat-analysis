@@ -22,7 +22,7 @@ mapped_driver.sys - your driver to manual map
 
 Run the batch as administrator et voilà
 
-*If the sc start returns error 647 (The driver was not loaded because it failed its initialization call), it mean that the driver successfully loaded. The reason it returns this error it's described in the analysis paper*
+**If the sc start returns error 647 (The driver was not loaded because it failed its initialization call), it means that the driver successfully loaded. The reason it returns this error it's described in the analysis paper**
 
 No need to take care of cleaning up the mapper as it already self-unload and delete the service registry key.
 
