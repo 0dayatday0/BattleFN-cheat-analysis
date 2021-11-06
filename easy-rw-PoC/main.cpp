@@ -61,7 +61,7 @@ int main(int argc, char* argv[])
 
 	std::cout << "easy-rw PoC" << std::endl;
 
-	// check for file existing
+	// check for needed modules existence
 	if (!file_exist("mapped_driver.sys") ||
 		!file_exist("mapper_driver.sys") ||
 		!file_exist("vmdrv.sys") ||
