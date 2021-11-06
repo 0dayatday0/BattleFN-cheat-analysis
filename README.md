@@ -12,7 +12,16 @@ Average Fortnite cheat paster trying to save his ass in front of his scammed cli
 The cheat pseudo-developer was so dumb to sign a driver with a valid certificate that manual map any driver present in C:\driver.sys.
 
 ## Instructions
-Simply put the batch file "mmap_driver.bat" present in a folder with your driver to manual map named "mapped_driver.sys" and run the batch as administrator.
+Put in a folder together the following files:
+
+mmap_driver.bat
+
+mapper_driver.sys - from the cheat modules repo directory
+
+mapped_driver.sys - your driver to manual map
+
+Run the batch as administrator et voilà
+
 No need to take care of cleaning up the mapper as it already self-unload and delete the service registry key.
 
 ## Notes
@@ -29,6 +38,17 @@ I made this for two purposes:
 2: Incase you want a copy and paste ready window to access any protected process memory, you can use that. You'll probably end in making a less detected cheat then its one, using the same stuff he pasted. 
 
 ## Instructions
+Build it just by opening the Visual Studio project file.
+
+Copy onto the just builded executable the following files from "cheat modules" repo directory:
+
+vmdrv.sys
+
+mapper_driver.sys
+
+mapped_driver.sys
+
+DLLVMhk.dll
 
 Open a command prompt as administrator and run the command:
 **"easy-rw.exe \<process id\>"**
